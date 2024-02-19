@@ -1,0 +1,8 @@
+/*THIS IS A CSS FILE FOR THE HTML*/
+
+.container .text{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}

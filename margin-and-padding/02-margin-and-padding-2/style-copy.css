@@ -1,0 +1,120 @@
+/* .flex-container{
+    display: flex;
+    background-color: rgb(173, 212, 247);
+    border: 4px blue solid;
+    padding: 5px;
+
+}
+
+.flex-container .one{
+    background: peachpuff;
+    border: 3px solid brown;
+    height: 100px;
+    width: 400px;
+    margin: 10px;
+    flex: 1;
+}
+
+.flex-container .two{
+    display: flex;
+    background: white;
+    border: 3px solid brown;
+    height: 100px;
+    width: 400px;
+    margin: 10px;
+
+}
+
+.two .two-box{
+    background: peachpuff;
+    border: 3px solid brown;
+    margin: 10px;
+    width: 200px;
+}
+
+.flex-container .three{
+    background: peachpuff;
+    border: 3px solid brown;
+    height: 100px;
+    width: 400px;
+    margin: 10px;
+    flex: 1;
+}
+ */
+
+ .flex-container{
+    display: flex;
+    /* background-color: rgb(174, 219, 245);
+    border: blue solid 2px;
+    height: 200px; */
+    width: 50px;
+ }
+
+ .flex-container div{
+    /* margin: 10px; */
+    padding: 20px;
+    background-color: peachpuff;
+    border: brown  solid 2px;
+    height: 100px;
+    width: 100px;
+    flex-shrink: 7;
+ }
+
+.flex-container .two{
+    flex: 2;
+ }
+
+
+
+
+
+/* 
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: rgb(230, 230, 230);
+}
+
+.card{
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    width: 600px;
+    background-color: white;
+}
+
+.title,.content,.button-container{
+    background-color: rgb(223, 247, 255);
+    padding: 4px 10px;
+}
+.title{
+    display: block;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.content{
+    margin: 10px 0px;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.others{
+    color: blue;
+}
+
+a{
+    display: inline-block ;
+    padding: 10px;
+}
+
+button{
+    display: inline-block;
+    margin: 0px auto 5px auto;
+    padding: 10px auto;
+    background-color: white;
+    border: 0px solid white;
+}  */
